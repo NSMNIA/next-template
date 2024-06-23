@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.1.1",
+    "@t3-oss/env-nextjs": "^0.10.1",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "lucide-react": "^0.396.0",
@@ -23,7 +24,8 @@
     "sonner": "^1.5.0",
     "tailwind-merge": "^2.3.0",
     "tailwindcss-animate": "^1.0.7",
-    "vaul": "^0.9.1"
+    "vaul": "^0.9.1",
+    "zod": "^3.23.8"
   },
   "devDependencies": {
     "@commitlint/config-conventional": "^19.2.2",
@@ -48,7 +50,8 @@
     "stylelint-order": "^6.0.4",
     "stylelint-selector-bem-pattern": "^4.0.0",
     "tailwindcss": "^3.4.1",
-    "typescript": "^5"
+    "typescript": "^5",
+    "typescript-eslint": "^7.13.1"
   },
   "volta": {
     "node": "20.15.0"

@@ -1,3 +1,4 @@
+import type { Icon } from "@/types"
 import {
   ArrowLeft,
   ArrowRight,
@@ -10,8 +11,6 @@ import {
   Plus,
   X,
 } from "lucide-react"
-
-export type Icon = React.SVGProps<SVGSVGElement>
 
 export const Icons = {
   logo: (props: Icon) => (
