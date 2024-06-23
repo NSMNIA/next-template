@@ -11,3 +11,4 @@ My personal template for Next.js projects. It includes:
 - [Husky](https://typicode.github.io/husky/)
   - Pre commit: `lint-staged`
   - Commit message: `commitlint`
+- [Storybook](https://storybook.js.org/)

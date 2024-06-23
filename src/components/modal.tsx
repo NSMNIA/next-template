@@ -15,6 +15,7 @@ import {
   Drawer,
   DrawerContent,
   DrawerDescription,
+  DrawerFooter,
   DrawerHeader,
   DrawerTitle,
   DrawerTrigger,
@@ -55,12 +56,10 @@ export function Modal({
       <DrawerTrigger asChild>{trigger}</DrawerTrigger>
       <DrawerContent>
         <DrawerHeader>
-          <DrawerTitle>Nieuw spel</DrawerTitle>
-          <DrawerDescription>
-            Vul de gegevens in om een nieuw spel aan te maken.
-          </DrawerDescription>
+          <DrawerTitle>{title}</DrawerTitle>
+          <DrawerDescription>{description}</DrawerDescription>
         </DrawerHeader>
-        {children}
+        <DrawerFooter>{children}</DrawerFooter>
       </DrawerContent>
     </Drawer>
   )
