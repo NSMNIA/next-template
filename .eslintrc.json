@@ -6,7 +6,9 @@
     "prettier",
     "plugin:tailwindcss/recommended",
     "plugin:@typescript-eslint/recommended",
-    "plugin:storybook/recommended"
+    "plugin:storybook/recommended",
+    "plugin:testing-library/react",
+    "plugin:jest-dom/recommended"
   ],
   "plugins": ["tailwindcss", "@typescript-eslint"],
   "rules": {
