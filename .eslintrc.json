@@ -14,7 +14,7 @@
   "rules": {
     "tailwindcss/no-custom-classname": "off",
     "tailwindcss/classnames-order": "off",
-    "no-unused-vars": "error",
+    "@typescript-eslint/no-unused-vars": "error",
     "@typescript-eslint/consistent-type-imports": "error"
   },
   "settings": {
