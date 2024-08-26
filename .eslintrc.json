@@ -5,10 +5,7 @@
     "next/core-web-vitals",
     "prettier",
     "plugin:tailwindcss/recommended",
-    "plugin:@typescript-eslint/recommended",
-    "plugin:storybook/recommended",
-    "plugin:testing-library/react",
-    "plugin:jest-dom/recommended"
+    "plugin:@typescript-eslint/recommended"
   ],
   "plugins": ["tailwindcss", "@typescript-eslint"],
   "rules": {

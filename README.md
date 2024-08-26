@@ -14,12 +14,6 @@ My personal template for Next.js projects. It includes the following features:
 - [PostCSS](https://postcss.org/)
 - [shadcn/ui](https://ui.shadcn.com/)
 
-## Testing
-
-- [Storybook](https://storybook.js.org/)
-- [Jest](https://jestjs.io/)
-- [Testing Library](https://testing-library.com/)
-
 ## Git hooks
 
 - [Husky](https://typicode.github.io/husky/)
