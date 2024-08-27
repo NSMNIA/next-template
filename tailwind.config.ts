@@ -1,8 +1,6 @@
 import type { Config } from "tailwindcss"
 import { fontFamily } from "tailwindcss/defaultTheme"
 
-import { spacing, text } from "./custom-sizes"
-
 const config = {
   darkMode: ["class"],
   content: [
@@ -21,63 +19,6 @@ const config = {
       },
     },
     extend: {
-      fontSize: {
-        h1: [
-          text.h1,
-          {
-            lineHeight: "90%",
-          },
-        ],
-        h2: [
-          text.h2,
-          {
-            lineHeight: "1.15",
-          },
-        ],
-        h3: [
-          text.h3,
-          {
-            lineHeight: "1.15",
-          },
-        ],
-        h4: [
-          text.h4,
-          {
-            lineHeight: "1.15",
-          },
-        ],
-        h5: [
-          text.h5,
-          {
-            lineHeight: "1.15",
-          },
-        ],
-        p: [
-          text.p,
-          {
-            lineHeight: "1.15",
-          },
-        ],
-        sm: [
-          text.sm,
-          {
-            lineHeight: "1.15",
-          },
-        ],
-        xs: [
-          text.xs,
-          {
-            lineHeight: "1.15",
-          },
-        ],
-        xxs: [
-          text.xxs,
-          {
-            lineHeight: "1.15",
-          },
-        ],
-      },
-      spacing,
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
